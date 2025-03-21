@@ -216,19 +216,6 @@ main {
     bottom: 10px; /* Move para baixo */
 }
 
-.auth button {
-    background-color:beige;
-    color: rgb(99, 2, 2);
-    border: none;
-    padding: 8px 10px;
-    margin: 2px 0;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.auth button:hover {
-    background-color: lightgray;
-}
 
 article.filme {
     border: 2px solid #ff6600; /* Borda laranja ao redor de cada filme */
