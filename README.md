@@ -8,17 +8,19 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Maria Clara Henrique
+- Matricula: 881067
+- Proposta de projeto escolhida: Catálogo de Filmes
+- Breve descrição sobre seu projeto: Fiz um site com um catalogo de filmes que vão poder ser favoritados, avalidos e procurados.
 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![cinelistaespoco.jpg](public/cinelistaespoco.jpg)
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Site part1](public/printsite.JPG)
+![Site part2](public/printsite2.JPG)
+![Site part3](public/printsite3.JPG)
