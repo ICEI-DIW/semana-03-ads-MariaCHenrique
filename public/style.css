@@ -1,3 +1,238 @@
 body {
-    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(190, 84, 84);
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Cabeçalho*/
+header {
+    background-color:rgb(182, 23, 23);
+    padding: 10xp;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+/*Estrutura da pagina*/
+.container {
+    display: flex;
+}
+
+
+
+
+
+
+
+.search-bar input {
+    padding: 7px;
+}
+
+
+/* Barra lateral esquerda */
+.sidebar-left {
+    width: 15%;
+     background-color:blanchedalmond;
+    color: white;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.destaques h2 {
+    text-align: center;
+    color: black
+}
+
+.filme {
+    text-align: center;
+    margin-bottom: 5px;
+    color: black
+}
+
+.filme img {
+    width: 180px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.filme a {
+    color: black;  /* Define a cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.filme a:hover {
+    color: orangered;  /* Cor ao passar o mouse */
+}
+
+
+/* Conteúdo principal */
+main {
+    width: 70%;
+    padding: 30px;
+}
+
+
+
+.filme-lista {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Barra lateral direita */
+.sidebar-right {
+    width: 15%;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.user-options {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.user-options button {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sidebar-right h2 {
+    text-align: center;
+    color: black;
+}
+
+.sidebar-right ul {
+    list-style: none;
+    padding: 0;
+    color: black;
+}
+
+.sidebar-right ul li {
+    text-align: center;
+    padding: 5px 0;
+    color: black;
+}
+
+.sidebar-right ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* rodape*/
+
+html, body {
+    height: 100%; /* Garante que o corpo ocupe toda a tela */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Faz o conteúdo expandir e empurra o footer para baixo */
+}
+
+
+
+
+
+/* Estilizar o cabeçalho */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(182, 23, 23);
+    padding: 15px 20px;
+    width: 100%;
+}
+/* Centralizar o menu e a pesquisa */
+.center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+/* Centralizar o menu */
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilizar a barra de pesquisa */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilizar Login e Cadastro no canto inferior direito */
+.auth {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 20px;
+    bottom: 10px; /* Move para baixo */
+}
+
+.auth button {
+    background-color:beige;
+    color: rgb(99, 2, 2);
+    border: none;
+    padding: 8px 10px;
+    margin: 2px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth button:hover {
+    background-color: lightgray;
+}
+
+article.filme {
+    border: 2px solid #ff6600; /* Borda laranja ao redor de cada filme */
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #222;
 }
