@@ -236,3 +236,55 @@ article.filme {
     border-radius: 8px;
     background-color: #222;
 }
+
+
+.footer {
+    background-color: rgb(182, 23, 23);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer nav ul li {
+    display: inline;
+}
+
+.footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer nav ul li a:hover {
+    color: orangered;
+}
+
+
+/* Rodapé fixado na parte inferior */
+.footer {
+    background-color: rgb(182, 23, 23);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed; /* Se não quiser fixo */
+    bottom: 0;
+}
+
